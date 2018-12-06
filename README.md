@@ -1,6 +1,6 @@
 # Git for Windows
 
-[I. Giới thiệu về Git] (#gioithieuvegit)
+[I. Giới thiệu về Git](#gioithieuvegit)
 
 [1. Khái niệm](#khainiem)
 
@@ -10,7 +10,7 @@
 
 [II. Hệ thống câu lệnh trong Git](#hethongcaulenhtronggit)
 
-[2.1. git status, git init](#gitstatus,gitinit)
+[2.1. Git status, git init](#gitstatus,gitinit)
 
 [2.2. Git add](#gitadd)
 
@@ -34,6 +34,7 @@
 
 [III. Kết luận](#ketluan)
 ***************
+
 <a name="gioithieuvegit"></a>
 ## I. Giới thiệu về Git
 <a name="khainiem"></a>
@@ -88,7 +89,7 @@ Cần phân biệt rõ Git là công cụ để quản lý source code, Github l
 
 Trước tiên bạn cần đăng ký 1 tài khoản Github trên https://github.com/ .
 
-Cần ghi nhớ 2 thông tin: username, email, pasword.
+Cần ghi nhớ 2 thông tin: **username, email, pasword**.
 
 Tạo 1 Repo trên Github 
 
@@ -96,7 +97,7 @@ Tiếp theo download Git https://git-scm.com/downloads. Băt đầu cài đăt G
 
 Để kiểm tra Git đã cài đặt thành công chưa bạn dùng câu lệnh `git --version`
 
-https://github.com/chinguyen97/HocGithub/blob/master/images/version.png
+![version](https://github.com/chinguyen97/HocGithub/blob/master/images/version.png)
 
 Hiện mình cài version 2.19.2
 
@@ -110,7 +111,7 @@ git config --global user.name = "username"
 git config --global user.email = "email"
 ```
 
-https://github.com/chinguyen97/HocGithub/blob/master/images/Screenshot_1.png
+![signup](https://github.com/chinguyen97/HocGithub/blob/master/images/Screenshot_1.png)
 
 Vậy là Git đã được cài đặt thành công và đồng bộ với Github của bạn.
 
@@ -242,26 +243,35 @@ hoặc
 ```git help config```
 
 - Xem lịch sử commit 
-```git log```
-
+```
+git log
+```
 - Xem commit history cho hai commits gần nhất
-```git log -2```
 
+```
+git log -2
+```
 - Xem commit history cho hai commits gần nhất, bao gồm cả thay đổi
 
 ```git log -p -2```
 
 - Xem thông tin cụ thể của một lần commit
 
-```git show commit_ID```
+```
+git show commit_ID
+```
 
 - Liệt kê các settings đang sử dụng:
 
-```git config --list```
+```
+git config --list
+```
 
 - Đổi message của commit cuối
 
-```git commit --amend -m "New commit massage"```
+```
+git commit --amend -m "New commit massage"
+```
 - Revert một commit rồi push
 
 ```
@@ -278,7 +288,8 @@ với sourcecode, làm việc nhóm,...Lợi ích mà Git đem lại vô cùng t
 Trên đây là kiến thức mình tìm hiểu được về Git. Mong nhận được sự góp ý của cộng đồng.
 
 
-***### Tài liệu tham thảo***
+***Tài liệu tham thảo***
 [1]: https://github.com/hocchudong/git-github-for-sysadmin
+
 [2]: http://rogerdudler.github.io/git-guide/index.vi.html
 
