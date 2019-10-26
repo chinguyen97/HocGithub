@@ -111,8 +111,6 @@ git config --global user.name = "username"
 git config --global user.email = "email"
 ```
 
-![signup](https://github.com/chinguyen97/HocGithub/blob/master/images/Screenshot_1.png)
-
 Vậy là Git đã được cài đặt thành công và đồng bộ với Github của bạn.
 
 <a name="gitstatus,gitinit"></a>
